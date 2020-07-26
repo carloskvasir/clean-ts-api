@@ -21,7 +21,7 @@
     "typescript": "^3.9.7"
   },
   "scripts": {
-    "test": "jest",
-    "test:stagged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:stagged": "jest --passWithNoTests"
   }
 }
