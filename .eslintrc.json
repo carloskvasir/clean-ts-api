@@ -11,7 +11,13 @@
       {
         // example configuration
         "newlinesBetween": "always",
-        "groups": ["module", "/^@shared/", ["parent", "sibling", "index"]],
+        "groups": [
+          "module",
+          "/^@shared/",
+          ["parent", "sibling", "index"],
+          "/protocols/",
+          "/errors/"
+        ],
         "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ]
